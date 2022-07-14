@@ -8,7 +8,6 @@ import {CardFactory} from "./card-factory";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Random Card 2';
   card: Card;
   imageSrc: string;
   private cardFactory = new CardFactory();
